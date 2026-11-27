@@ -1,9 +1,8 @@
 name: Pages
 
 # Publishes demos/ as this repo's own GitHub Pages site.
-# Today: https://calmcampus-fv.github.io/CalmBiz/ . Planned custom domain: biz.calmcampus.app
-# (see demos/CNAME and AGENTS.md). With an Actions deploy, GitHub ignores the CNAME file:
-# the custom domain is switched on in Settings > Pages only once its DNS record exists.
+# Live at https://biz.calmcampus.app/ (custom domain set in Settings > Pages; with an Actions
+# deploy GitHub ignores demos/CNAME, which documents the domain).
 on:
   push:
     branches: [main]
