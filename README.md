@@ -18,7 +18,7 @@ Rules for demos and wording are in [AGENTS.md](AGENTS.md).
 
 ## Where it runs
 
-`demos/` is published as this repo's own GitHub Pages site on every push to `main`: today at [calmcampus-fv.github.io/CalmBiz](https://calmcampus-fv.github.io/CalmBiz/), planned at `biz.calmcampus.app` once its DNS record exists.
+`demos/` is published as this repo's own GitHub Pages site on every push to `main`: live at [biz.calmcampus.app](https://biz.calmcampus.app/) (HTTPS enforced; `calmcampus-fv.github.io/CalmBiz/` redirects there).
 
 ## Related repositories
 
