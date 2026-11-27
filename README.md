@@ -16,6 +16,10 @@ Company demos and prototypes for **CalmCampus**, a weekly wellbeing check-in tha
 
 Rules for demos and wording are in [AGENTS.md](AGENTS.md).
 
+## Where it runs
+
+`demos/` is published as this repo's own GitHub Pages site on every push to `main`: today at [calmcampus-fv.github.io/CalmBiz](https://calmcampus-fv.github.io/CalmBiz/), planned at `biz.calmcampus.app` once its DNS record exists.
+
 ## Related repositories
 
 - [CalmApp](https://github.com/CalmCampus-FV/CalmApp): the iOS app
