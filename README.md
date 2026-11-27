@@ -11,7 +11,7 @@ Company demos and prototypes for **CalmCampus**, a weekly wellbeing check-in tha
 
 | Path | What it is |
 |---|---|
-| [`demos/`](demos/) | One folder per company demo (none yet) |
+| [`demos/`](demos/) | One folder per company demo (none yet), plus the root landing page published to GitHub Pages |
 | [`scripts/check-demos.py`](scripts/check-demos.py) | The check CI runs on every demo |
 
 Rules for demos and wording are in [AGENTS.md](AGENTS.md).

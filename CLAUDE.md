@@ -5,6 +5,8 @@ CalmBiz holds the CalmCampus demos and prototypes for companies (staff wellbeing
 ## Layout
 
 - `demos/<id>/` - one folder per company demo, with an `index.html`, self-contained (relative paths, no files from outside the folder). Empty for now; see `demos/README.md`.
+- `demos/index.html`, `demos/site.css` - the root landing page (no demos yet). `demos/CNAME` - the planned custom domain.
+- `.github/workflows/pages.yml` - publishes `demos/` as this repo's own GitHub Pages site on every push to `main`: today at `https://calmcampus-fv.github.io/CalmBiz/`, later `biz.calmcampus.app`. With an Actions deploy GitHub ignores the CNAME file; the domain is switched on in Settings > Pages only after its DNS record exists.
 - `scripts/check-demos.py` - the check CI runs: every demo has an index.html, links resolve, nothing loads from other hosts, the disclaimer is present and the banned wording is absent.
 
 ## Rules for demos
@@ -12,7 +14,7 @@ CalmBiz holds the CalmCampus demos and prototypes for companies (staff wellbeing
 - Plain HTML/CSS/JS, no build step unless a demo really needs one. No backend, no accounts, no analytics, no third-party scripts, fonts or embeds.
 - Answers stay on the device (local storage); nothing is sent anywhere.
 - Never invent content: no fake company names, logos, testimonials, quotes, numbers or results. Labelled example data is allowed only when it is clearly marked Example.
-- If a demo is ever published under cc.braunf.com, it goes the same way as the university demos: the source stays here and CalmWeb serves a copy in `docs/<path>/` (see CalmUni's AGENTS.md). Once a link is sent, never move or rename it.
+- Demos are published from this repo's own Pages site (`biz.calmcampus.app/<id>/` once the domain is live). Once a link is sent, never move or rename it.
 
 ## Wording rules (all CalmCampus copy)
 
