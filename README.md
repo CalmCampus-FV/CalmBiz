@@ -23,7 +23,7 @@ Rules for demos and wording are in [AGENTS.md](AGENTS.md).
 ## Related repositories
 
 - [CalmApp](https://github.com/CalmCampus-FV/CalmApp): the iOS app
-- [CalmWeb](https://github.com/CalmCampus-FV/CalmWeb): the website at cc.braunf.com
+- [CalmWeb](https://github.com/CalmCampus-FV/CalmWeb): the website at calmcampus.app
 - [CalmUni](https://github.com/CalmCampus-FV/CalmUni): university demos
 - [CalmCampus](https://github.com/CalmCampus-FV/CalmCampus): research and design archive
 
